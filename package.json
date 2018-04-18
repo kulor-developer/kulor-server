@@ -1,0 +1,23 @@
+{
+    "name": "kulor-server",
+    "version": "0.0.1",
+    "description": "kulor-server",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kulor-developer/kulor-server.git"
+    },
+    "keywords": ["kulor-server"],
+    "author": "Bo.Cheng",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kulor-developer/kulor-server/issues"
+    },
+    "homepage": "https://github.com/kulor-developer/kulor-server#readme" ,
+    "dependencies": {
+        "pug": "^2.0.3"
+    }
+}
