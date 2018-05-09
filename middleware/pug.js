@@ -8,19 +8,9 @@ class Pug {
         this.templateCache = {};
         this.opt = opt;
     }
-    getFile(filePath) {
-        return new Promise(res => {
-            fs.read(filePath, (err, str) => {
-                if (err) {
-                    throw new Error(`pug : ${filePath} load fail`);
-                }
-                res(err ? "" : string(str));
-            });
-        });
-    }
     async getHTML(insertJSON, templateName) {
         let filePath;
-        if ("string" === typeof insertÍJSON) {
+        if ("string" === typeof insertJSON) {
             templateName = insertJSON;
             insertJSON = {};
         }
